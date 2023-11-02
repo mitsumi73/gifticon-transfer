@@ -81,7 +81,7 @@ export const App: React.FC = () => {
         <Row justify={"center"} align={"top"}>
             <Col xs={24} sm={24} md={20} lg={16} xl={12}>
                 <Card>
-                    <Title level={2} style={{textAlign: "center"}}>P2P File Transfer</Title>
+                    <Title level={2} style={{textAlign: "center"}}>Gifticon Transfer</Title>
                         <Card hidden={peer.started}>
                             <Button onClick={handleStartSession} loading={peer.loading}>Start</Button>
                         </Card>

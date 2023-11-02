@@ -1,7 +1,7 @@
 {
-  "name": "p2p-file-transfer",
+  "name": "gifticon-transfer",
   "version": "0.1.0",
-  "homepage": "https://chidokun.github.io/p2p-file-transfer",
+  "homepage": "https://mitsumi73.github.io/Gifticon-transfer",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^5.0.1",
@@ -14,6 +14,7 @@
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "antd": "^5.4.2",
+    "env-cmd": "^10.1.0",
     "js-file-download": "^0.4.12",
     "peerjs": "^1.4.7",
     "react": "^18.2.0",
@@ -25,10 +26,11 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "predeploy": "yarn build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build:staging": "env-cmd -f .env.staging npm run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -51,6 +53,10 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0"
-  }
+    "gh-pages": "^6.0.0"
+  },
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }

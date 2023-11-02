@@ -1,6 +1,7 @@
 {
-  "short_name": "P2P File Transfer",
-  "name": "P2P File Transfer",
+  "short_name": "Gifticon Transfer",
+  "name": "Gifticon Transfer",
+  "start_url": ".",
   "icons": [
     {
       "src": "favicon.ico",
