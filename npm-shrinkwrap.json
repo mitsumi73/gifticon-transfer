@@ -2,8 +2,8 @@
   "name": "gifticon-transfer",
   "version": "0.1.0",
   "lockfileVersion": 3,
-  "homepage": "https://mitsumi73.github.io/Gifticon-transfer",
   "requires": true,
+  "homepage": "https://mitsumi73.github.io/Gifticon-transfer",
   "packages": {
     "": {
       "name": "gifticon-transfer",
