@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/Gifticon-transfer/static/js/main.8f41b20c.js",
+    "static/js/787.b377dd00.chunk.js": "/Gifticon-transfer/static/js/787.b377dd00.chunk.js",
+    "index.html": "/Gifticon-transfer/index.html",
+    "main.8f41b20c.js.map": "/Gifticon-transfer/static/js/main.8f41b20c.js.map",
+    "787.b377dd00.chunk.js.map": "/Gifticon-transfer/static/js/787.b377dd00.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.8f41b20c.js"
+  ]
+}
